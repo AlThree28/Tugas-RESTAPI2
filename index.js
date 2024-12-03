@@ -2,7 +2,9 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
+
 app.use(express.json());
+ 
 
 let users = [
     { id: 1, name: 'John Doe', email: 'john@example.com' },
